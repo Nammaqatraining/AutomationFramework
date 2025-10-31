@@ -143,11 +143,18 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.AutomationFrameowork.listeners.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestA&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.AutomationFramework.testCases.Test1&quot;/&gt;
+      &lt;class name=&quot;com.AutomationFramework.testCases.Test1&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testA&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.AutomationFramework.testCases.Test1 --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- TestA --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +166,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">TestA (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,12 +196,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testA')
 data.setCell(0, 2, 'com.AutomationFramework.testCases.Test1')
-data.setCell(0, 3, 13);
+data.setCell(0, 3, 11);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 ms</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -209,6 +216,8 @@ return data;
               <span class="reporter-method-name">testA</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">This is my first test case in automation framework</span>
+                <span class="reporter-method-output"><a href='file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png'><img src='file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png' height=100 width=100> </a></span>
+                <span class="reporter-method-output">Test case passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->

@@ -4,20 +4,32 @@
     <line>
       <![CDATA[This is my first test case in automation framework]]>
     </line>
+    <line>
+      <![CDATA[<a href='file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png'><img src='file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png' height=100 width=100> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-10-30T08:23:25 IST" name="Suite" finished-at="2025-10-30T08:23:25 IST" duration-ms="56">
+  <suite started-at="2025-10-31T07:54:49 IST" name="Suite" finished-at="2025-10-31T07:54:49 IST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2025-10-30T08:23:25 IST" name="Test" finished-at="2025-10-30T08:23:25 IST" duration-ms="56">
+    <test started-at="2025-10-31T07:54:49 IST" name="TestA" finished-at="2025-10-31T07:54:49 IST" duration-ms="64">
       <class name="com.AutomationFramework.testCases.Test1">
-        <test-method signature="testA()[pri:0, instance:com.AutomationFramework.testCases.Test1@4c371370]" started-at="2025-10-30T08:23:25 IST" name="testA" finished-at="2025-10-30T08:23:25 IST" duration-ms="13" status="PASS">
+        <test-method signature="testA()[pri:0, instance:com.AutomationFramework.testCases.Test1@2a65fe7c]" started-at="2025-10-31T07:54:49 IST" name="testA" finished-at="2025-10-31T07:54:49 IST" duration-ms="11" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is my first test case in automation framework]]>
             </line>
+            <line>
+              <![CDATA[<a href='file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png'><img src='file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png' height=100 width=100> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testA -->
       </class> <!-- com.AutomationFramework.testCases.Test1 -->
-    </test> <!-- Test -->
+    </test> <!-- TestA -->
   </suite> <!-- Suite -->
 </testng-results>

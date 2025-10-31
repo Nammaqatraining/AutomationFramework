@@ -4,20 +4,32 @@
     <line>
       <![CDATA[This is my first test case in automation framework]]>
     </line>
+    <line>
+      <![CDATA[<a href="file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png" target="_blank">click here to see the sc</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-10-30T08:30:29 IST" name="Suite" finished-at="2025-10-30T08:30:29 IST" duration-ms="45">
+  <suite started-at="2025-10-31T08:21:44 IST" name="Suite" finished-at="2025-10-31T08:21:44 IST" duration-ms="42">
     <groups>
     </groups>
-    <test started-at="2025-10-30T08:30:29 IST" name="Test" finished-at="2025-10-30T08:30:29 IST" duration-ms="45">
+    <test started-at="2025-10-31T08:21:44 IST" name="TestA" finished-at="2025-10-31T08:21:44 IST" duration-ms="42">
       <class name="com.AutomationFramework.testCases.Test1">
-        <test-method signature="testA()[pri:0, instance:com.AutomationFramework.testCases.Test1@188715b5]" started-at="2025-10-30T08:30:29 IST" name="testA" finished-at="2025-10-30T08:30:29 IST" duration-ms="6" status="PASS">
+        <test-method signature="testA()[pri:0, instance:com.AutomationFramework.testCases.Test1@2d1ef81a]" started-at="2025-10-31T08:21:44 IST" name="testA" finished-at="2025-10-31T08:21:44 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is my first test case in automation framework]]>
             </line>
+            <line>
+              <![CDATA[<a href="file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png" target="_blank">click here to see the sc</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testA -->
       </class> <!-- com.AutomationFramework.testCases.Test1 -->
-    </test> <!-- Test -->
+    </test> <!-- TestA -->
   </suite> <!-- Suite -->
 </testng-results>
