@@ -5,6 +5,7 @@
     <listener class-name="com.AutomationFrameowork.listeners.CustomListener"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="com.AutomationFrameowork.listeners.ExtentListeners"/>
+    <listener class-name="com.AutomationFrameowork.listeners.Retry_Listener"/>
   </listeners>
   <test thread-count="5" name="TestA(failed)" verbose="0">
     <classes>
