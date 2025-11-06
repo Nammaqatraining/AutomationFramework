@@ -8,11 +8,13 @@
 	<listener class-name="com.AutomationFrameowork.listeners.Retry_Listener"></listener>
 </listeners>
     <test thread-count="5" name="TestA">
+    <parameter name="browser" value="firefox"></parameter>
+    <parameter name="url" value="https://demo.automationtesting.in/Register.html"></parameter>
     <classes>
-      <class name="com.AutomationFramework.testCases.Test3">
+      <class name="com.AutomationFramework.testCases.Test5">
 	     <methods>
-	     	<include name="login1"></include>
-	     	<include name="login2"></include>
+	     	<include name="validateLoginWithMultipleUser"></include>
+	     	
 	     
 	     </methods>
       </class>

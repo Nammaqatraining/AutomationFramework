@@ -24,4 +24,6 @@ public class Test3 {
 		ExtentListeners.test.log(Status.INFO, "Verify i am on the dashboard page");
 		Assert.fail();
 	}
+	
+	
 }

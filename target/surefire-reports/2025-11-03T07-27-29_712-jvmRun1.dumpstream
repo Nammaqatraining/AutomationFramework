@@ -1,3 +1,0 @@
-# Created at 2025-11-03T07:27:30.913
-class com.AutomationFrameowork.listeners.RetryListener cannot be cast to class org.testng.ITestNGListener (com.AutomationFrameowork.listeners.RetryListener and org.testng.ITestNGListener are in unnamed module of loader 'app')
-
