@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="tests">
 <listeners>
 	<listener class-name="com.AutomationFrameowork.listeners.CustomListener"></listener>
 	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 	<listener class-name="com.AutomationFrameowork.listeners.ExtentListeners"></listener>
-	<listener class-name="com.AutomationFrameowork.listeners.Retry_Listener"></listener>
+	<!--<listener class-name="com.AutomationFrameowork.listeners.Retry_Listener"></listener>-->
 </listeners>
     <test thread-count="5" name="TestA">
     <parameter name="browser" value="firefox"></parameter>
     <parameter name="url" value="https://demo.automationtesting.in/Register.html"></parameter>
     <classes>
-      <class name="com.AutomationFramework.testCases.Test5">
+      <class name="com.AutomationFramework.testCases.LoginTest">
 	     <methods>
-	     	<include name="validateLoginWithMultipleUser"></include>
-	     	
-	     
+	     	<include name="loginValidCredentails"></include>
+	     </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="TestB">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://demo.automationtesting.in/Register.html"></parameter>
+    <classes>
+      <class name="com.AutomationFramework.testCases.LoginTest">
+	     <methods>
+	     	<include name="loginInValidCredentails"></include>
 	     </methods>
       </class>
     </classes>

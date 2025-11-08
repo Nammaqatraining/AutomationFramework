@@ -1,10 +1,13 @@
 package com.AutomationFrameowork.listeners;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.AutomationFramework.testCases.BaseTest;
+import com.AutomationFramework.utils.Generic;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.markuputils.ExtentColor;
@@ -34,7 +37,10 @@ public class ExtentListeners implements ITestListener, ISuiteListener{
 		  public void onTestFailure(ITestResult result) {
 		    // not implemented
 			  String methodName = result.getMethod().getMethodName();
-			  Markup m = MarkupHelper.createLabel(methodName.toUpperCase()+" FAIL" , ExtentColor.RED);
+			  String dateAndTime = Generic.currentDateAndTime();
+			  WebDriver driver = BaseTest.getDriver();
+			  Generic.getScreenShot(driver, methodName, dateAndTime);
+			  Markup m = MarkupHelper.createLabel(methodName.toUpperCase()+" FAIL" +"<a href="+"file:///"+System.getProperty("user.dir")+"\\ScreenShots\\"+methodName+dateAndTime+".png"+" target=\"_blank\"> click here </a>", ExtentColor.RED);
 			  test.fail(m);
 		  }
 
