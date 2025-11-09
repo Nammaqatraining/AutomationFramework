@@ -7,16 +7,16 @@
     <listener class-name="com.AutomationFrameowork.listeners.ExtentListeners"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="TestA(failed)">
-    <parameter name="browser" value="firefox"/>
-    <parameter name="url" value="https://demo.automationtesting.in/Register.html"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://practice.automationtesting.in/"/>
     <classes>
-      <class name="com.AutomationFramework.testCases.LoginTest">
+      <class name="com.AutomationFramework.testCases.BasketTestCases">
         <methods>
           <include name="closeBrowser"/>
+          <include name="verifyUserAbleToAddProductsIntoTheBasket"/>
           <include name="openBrowser"/>
-          <include name="loginValidCredentails"/>
         </methods>
-      </class> <!-- com.AutomationFramework.testCases.LoginTest -->
+      </class> <!-- com.AutomationFramework.testCases.BasketTestCases -->
     </classes>
   </test> <!-- TestA(failed) -->
 </suite> <!-- Failed suite [Suite] -->

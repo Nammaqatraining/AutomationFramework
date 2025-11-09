@@ -8,23 +8,12 @@
 	<!--<listener class-name="com.AutomationFrameowork.listeners.Retry_Listener"></listener>-->
 </listeners>
     <test thread-count="5" name="TestA">
-    <parameter name="browser" value="firefox"></parameter>
-    <parameter name="url" value="https://demo.automationtesting.in/Register.html"></parameter>
-    <classes>
-      <class name="com.AutomationFramework.testCases.LoginTest">
-	     <methods>
-	     	<include name="loginValidCredentails"></include>
-	     </methods>
-      </class>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="TestB">
     <parameter name="browser" value="chrome"></parameter>
-    <parameter name="url" value="https://demo.automationtesting.in/Register.html"></parameter>
+    <parameter name="url" value="https://practice.automationtesting.in/"></parameter>
     <classes>
-      <class name="com.AutomationFramework.testCases.LoginTest">
+      <class name="com.AutomationFramework.testCases.BasketTestCases">
 	     <methods>
-	     	<include name="loginInValidCredentails"></include>
+	     	<include name="verifyUserAbleToAddProductsIntoTheBasket"></include>
 	     </methods>
       </class>
     </classes>
