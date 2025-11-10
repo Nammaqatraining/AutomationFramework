@@ -31,7 +31,7 @@ public class BaseTest {
 		}
 		 driver.get(url);
 		 driver.manage().window().maximize();
-		 driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(2));
+		 driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
 	}
 	
 	@AfterMethod

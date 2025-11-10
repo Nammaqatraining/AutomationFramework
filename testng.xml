@@ -13,7 +13,8 @@
     <classes>
       <class name="com.AutomationFramework.testCases.BasketTestCases">
 	     <methods>
-	     	<include name="verifyUserAbleToAddProductsIntoTheBasket"></include>
+	     	<exclude name="verifyUserAbleToAddProductsIntoTheBasket"></exclude>
+	     	<include name="userAbleToRemoveTheProductSuccessfullyFromTheBasket"></include>
 	     </methods>
       </class>
     </classes>

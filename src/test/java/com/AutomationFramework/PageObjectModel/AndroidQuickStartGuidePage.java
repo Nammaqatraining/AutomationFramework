@@ -29,4 +29,9 @@ public class AndroidQuickStartGuidePage extends BasePage{
 		return viewBasket_Button;
 	}
 	
+	public void addProductToTheBasket() {
+		addToBasket_Button.click();
+		viewBasket_Button.click();
+	}
+	
 }

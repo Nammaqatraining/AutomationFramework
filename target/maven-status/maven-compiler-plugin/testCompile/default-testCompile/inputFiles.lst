@@ -3,6 +3,14 @@ C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\Auto
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFrameowork\listeners\ExtentManager.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFrameowork\listeners\Retry.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFrameowork\listeners\Retry_Listener.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\PageObjectModel\AndroidQuickStartGuidePage.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\PageObjectModel\BasePage.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\PageObjectModel\BasketPage.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\PageObjectModel\HomePage.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\PageObjectModel\ShopPage.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\BaseTest.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\BasketTestCases.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\LoginTest.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\Test1.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\Test2.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\Test3.java
@@ -10,3 +18,6 @@ C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\Auto
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\testCases\Test5.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\utils\ExcelLibraries.java
 C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\utils\Generic.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\utils\Switch.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\utils\Utils.java
+C:\Users\Admin\eclipse-workspace-java\AutomationFramework\src\test\java\com\AutomationFramework\utils\Wait.java

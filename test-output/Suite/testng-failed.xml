@@ -13,7 +13,7 @@
       <class name="com.AutomationFramework.testCases.BasketTestCases">
         <methods>
           <include name="closeBrowser"/>
-          <include name="verifyUserAbleToAddProductsIntoTheBasket"/>
+          <include name="userAbleToRemoveTheProductSuccessfullyFromTheBasket"/>
           <include name="openBrowser"/>
         </methods>
       </class> <!-- com.AutomationFramework.testCases.BasketTestCases -->

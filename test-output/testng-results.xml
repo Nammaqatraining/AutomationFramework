@@ -8,12 +8,12 @@
       <![CDATA[Test case passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-11-09T09:05:01 IST" name="Suite" finished-at="2025-11-09T09:05:12 IST" duration-ms="11186">
+  <suite started-at="2025-11-10T07:41:19 IST" name="Suite" finished-at="2025-11-10T07:41:33 IST" duration-ms="13682">
     <groups>
     </groups>
-    <test started-at="2025-11-09T09:05:01 IST" name="TestA" finished-at="2025-11-09T09:05:12 IST" duration-ms="11186">
+    <test started-at="2025-11-10T07:41:19 IST" name="TestA" finished-at="2025-11-10T07:41:33 IST" duration-ms="13682">
       <class name="com.AutomationFramework.testCases.BasketTestCases">
-        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.AutomationFramework.testCases.BasketTestCases@57c03d88]" started-at="2025-11-09T09:05:01 IST" name="openBrowser" finished-at="2025-11-09T09:05:05 IST" duration-ms="3954" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.AutomationFramework.testCases.BasketTestCases@16aa8654]" started-at="2025-11-10T07:41:19 IST" name="openBrowser" finished-at="2025-11-10T07:41:23 IST" duration-ms="4102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyUserAbleToAddProductsIntoTheBasket()[pri:0, instance:com.AutomationFramework.testCases.BasketTestCases@57c03d88]" started-at="2025-11-09T09:05:05 IST" name="verifyUserAbleToAddProductsIntoTheBasket" finished-at="2025-11-09T09:05:12 IST" duration-ms="7015" status="PASS">
+        <test-method signature="userAbleToRemoveTheProductSuccessfullyFromTheBasket()[pri:0, instance:com.AutomationFramework.testCases.BasketTestCases@16aa8654]" started-at="2025-11-10T07:41:23 IST" name="userAbleToRemoveTheProductSuccessfullyFromTheBasket" finished-at="2025-11-10T07:41:33 IST" duration-ms="9363" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<a href="file:///C:/Users/Admin/Desktop/Slenium/fb-inputbox.png" target="_blank">click here to see the sc</a>]]>
@@ -38,8 +38,8 @@
               <![CDATA[Test case passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyUserAbleToAddProductsIntoTheBasket -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.AutomationFramework.testCases.BasketTestCases@57c03d88]" started-at="2025-11-09T09:05:12 IST" name="closeBrowser" finished-at="2025-11-09T09:05:12 IST" duration-ms="172" status="PASS">
+        </test-method> <!-- userAbleToRemoveTheProductSuccessfullyFromTheBasket -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.AutomationFramework.testCases.BasketTestCases@16aa8654]" started-at="2025-11-10T07:41:33 IST" name="closeBrowser" finished-at="2025-11-10T07:41:33 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
